@@ -1,0 +1,13 @@
+{{#with foundPet}}
+    <h1>{{name}}</h1>
+    <img src={{imgUrl}}>
+    <p>{{description}}</p>
+{{/with}}
+
+<form action="/pets" method="GET">
+            <button type="submit">Back to Pet List</button>
+        </form>
+
+<form action="/pets/edit/{{petId}}" method="GET">
+            <button type="submit">Edit Pet</button>
+        </form>

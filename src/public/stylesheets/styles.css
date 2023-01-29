@@ -1,0 +1,30 @@
+body {
+    padding: 50px;
+    font-family: 'Nunito', sans-serif;
+    background-color: rgb(185, 181, 181);
+    color: azure;
+    text-align: center;
+  }
+
+  li {
+    list-style: none;
+    padding: 10px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  img {
+    height: 250px;
+    width: 250px;
+  }
+
+  p {
+    padding: 20px;
+  }
+
+  button {
+    margin: 10px;
+    display: inline;
+  }

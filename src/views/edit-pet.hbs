@@ -1,0 +1,16 @@
+<h1>Edit this Pet</h1>
+{{#with foundPet}}
+<form action='/pets/edit/{{petId}}' method="POST">
+    <label for="name">Enter Item Name: </label>
+    <input type="text" name="name" placeholder="Enter Name"
+        value="{{name}}"/><br>
+
+    <label for="imgUrl">Pet's Image: </label>
+    <input type="text" name="imgUrl" placeholder="Image URL" value="{{imgUrl}}" /><br>
+
+    <label for="description">Enter Pet Description: </label>
+    <input type="textarea" name="description" placeholder="Enter Description" value="{{description}}" /><br>
+
+    <button type="submit">Edit Pet</button>
+</form>
+{{/with}}
